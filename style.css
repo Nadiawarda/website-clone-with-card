@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgba(36, 35, 35, 0.993);
+}
+div{
+    display: inline;
+}
+nav{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(230, 227, 227, 0.397);
+    
+}
+nav a{
+    color: white;
+    padding-right: 3rem;
+    font-size: 14px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: yellow;
+    cursor: pointer;
+}
+nav .nav-list .logo {
+/* margin: 0px 1.5rem; */
+font-size: 14px;
+text-decoration: none;
+}
+nav .nav-list .logo a:hover{
+    color: yellow;
+    cursor: pointer;
+    
+}
+button:hover{
+    color: yellow;
+    cursor: pointer;
+}
+nav .nav-list a{
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+
+
+nav .nav-list button{
+    height: 40px;
+    width: 150px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+nav .nav-list button:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.main{
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 4rem 0px 0px 5rem;
+    gap: 30px;
+}
+.image img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.side .heading{
+    font-size: large;
+    color: white;
+    padding-left: 10px;
+}
+h1:first-child{
+    color: rgb(243, 97, 194);
+}
+.side .para{
+    margin-top: 1.5rem;
+    color: white;
+    padding-left: 1rem;
+}
+.side button{
+    margin-top: 3rem;
+    padding: 13px;
+    width: 180px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid white;
+    background-image: linear-gradient(to right,#ebeb2f, #f56f1c);
+}
+.side button:hover{
+    color: rgb(127, 113, 250);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
